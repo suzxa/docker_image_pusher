@@ -1,4 +1,5 @@
 nginx
+--platform=linux/arm64 nginx
 --platform=linux/arm64 redis
 --platform=linux/arm64 ubuntu
 #支持私库
