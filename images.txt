@@ -2,6 +2,11 @@ nginx
 --platform=linux/arm64 nginx
 --platform=linux/arm64 redis
 --platform=linux/arm64 ubuntu
+--platform=linux/arm64 vesoft/nebula-dev:ubuntu2004
+--platform=linux/arm64 vesoft/nebula-metad:nightly
+--platform=linux/arm64 vesoft/nebula-storaged:nightly
+--platform=linux/arm64 vesoft/nebula-graphd:nightly
+--platform=linux/arm64 vesoft/nebula-console:nightly
 #支持私库
 # k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 # xhofe/alist:latest
